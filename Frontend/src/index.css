@@ -1,5 +1,17 @@
-/* ...existing code... */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* ...existing code... */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
